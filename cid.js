@@ -4,8 +4,8 @@ const path = require('path');
 
 module.exports = {
   config: {
-    name: "sonic",
-    aliases: ["shadow"],
+    name: "cid",
+    aliases: ["cid"],
     author: " Aesther ", 
     version: "2.0",
     cooldowns: 5,
@@ -27,16 +27,16 @@ module.exports = {
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '🌿✨𝐒𝐎𝐍𝐈𝐂🍀🎀',
+          name: '✞𝐂𝐈𝐃✞',
           gender: '𝗕𝗢𝗬',
-          hobby: '𝐅𝐨𝐨𝐭𝐛𝐚𝐥𝐥🏈',
-          relationship: '𝐄𝐧 𝐜𝐨𝐮𝐩𝐥𝐞❤✨🎀 𝐚𝐯𝐞𝐜 𝐌𝐀𝐑𝐈𝐀𝐌 𝐊𝐎𝐍𝐄🌿❤🍀',
-          facebookLink: 'ʚɸɞhttps://www.facebook.com/profile.php?id=100090405019929.ʚɸɞ',
-          bio: '🍀✨𝐃𝐚𝐧𝐢𝐞𝐥❦𝐔𝐜𝐡𝐢𝐰𝐚✨🍀 👮𝐏𝐨𝐥𝐢𝐜𝐞 𝐔𝐜𝐡𝐢𝐰𝐚🍀𝐒𝐨𝐜𝐢𝐚𝐥𝐞🍀𝐃𝐞 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤👮'
+          hobby: '𝐅𝐨𝐨𝐭𝐛𝐚𝐥𝐥⚽',
+          relationship: '𝐂É𝐋𝐈𝐁𝐀𝐓𝐀𝐈𝐑𝐄',
+          facebookLink: 'https://www.facebook.com/cidkageno228,
+          bio: '★✞𝐂𝐢𝐝✞𝐤𝐚𝐠𝐞𝐧𝐨★ 𝐃𝐫𝐚𝐠𝐮𝐞𝐮𝐫 𝐩𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐞𝐥 𝐑ê𝐯𝐞:𝐝𝐞𝐯𝐞𝐧𝐮𝐞 𝐥'𝐞𝐦𝐢𝐧𝐞𝐧𝐜𝐞 𝐝𝐚𝐧𝐬 𝐥'𝐨𝐦𝐛𝐫𝐞×͜×'
         };
 
         const videoUrl = 
-["https://i.imgur.com/ZpgBKGA.mp4",
+["https://i.imgur.com/9vCNzms.mp4",
 "https://i.imgur.com/h6J9tkb.mp4",
 "https://i.imgur.com/RmMI3dC.mp4",
 "https://i.imgur.com/jeyjWuk.mp4",
