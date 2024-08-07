@@ -14,11 +14,11 @@
 
 	onStart: async function ({ message }) {
 	 var link = [ 
-"https://i.ibb.co/xjN5mq3/image.jpg",
+"https://i.ibb.co/6XMQ7rs/image.jpg",
   ]
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: "𝐂'𝐞𝐬𝐭 𝐩𝐚𝐬 𝐚𝐢 𝐜𝐫𝐞𝐭𝐢𝐧 𝐜'𝐞𝐬𝐭 𝐒𝐨𝐧𝐢𝐜🙍",attachment: await global.utils.getStreamFromURL(img)
+  body: "𝐨𝐧 𝐝𝐢𝐭 𝐩𝐚𝐬 𝐚𝐢 𝐚𝐛𝐫𝐮𝐭𝐢𝐬 ",attachment: await global.utils.getStreamFromURL(img)
 })
 }
 }
